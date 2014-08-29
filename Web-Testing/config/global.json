@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Web-Testing": {
+            "applicationId": "sJGlEYGoA4SVQJJZRoORhLpkkWzYloTQk4ynEcDp", 
+            "masterKey": "AaSgQEU48UQdOARrZmGYxlBRC0wgPNakSWWGv9jN"
+        }, 
+        "_default": {
+            "link": "Web-Testing"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.19"
+    }
+}

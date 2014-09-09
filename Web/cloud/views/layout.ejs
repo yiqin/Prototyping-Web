@@ -5,7 +5,7 @@
      <% if (locals.title) { %>
        <title><%= title %></title>
      <% } else { %>
-       <title>AnyImg</title>
+       <title>YQParse</title>
      <% } %>
      <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
      <script src="/javascripts/backbone.js"></script>
@@ -15,13 +15,20 @@
      </script>
      <script type="text/javascript" src="/javascripts/main.js"></script>
      <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" />
+
+
+    <link rel="stylesheet" href="//assets.ziggeo.com/css/ziggeo-betajs-player.min.css" />
+    <script src="//assets.ziggeo.com/js/ziggeo-jquery-json2-betajs-player.min.js"></script>
+    <script>ZiggeoApi.token = "a269d083fb19f7ae1ace30f9c1dfdaf0";</script>
+
+
   </head>
 
   <body>
     <div id="content">
       <div id="bar">
         <a class="logo" href="/">
-          <h1>Hello World</h1>
+          <h1>Leaftagger</h1>
         </a>
       
         <ul class="right">
@@ -43,7 +50,11 @@
         <% } %>
         </ul>
       </div>
-      
+    <div>
+        <ziggeo></ziggeo>
+    </div>
+
+    <!--
       <div id="main">
         <% if (locals.flash) { %>
           <div class="flash"><%= flash %></div>
@@ -51,7 +62,12 @@
         
         <%- body %>
       </div>
+    -->
     </div>
+
+
+
+
   </body>
 </html>
   
